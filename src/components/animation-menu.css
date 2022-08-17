@@ -1,0 +1,169 @@
+/*========== ANIMATION 1 ============*/
+.nav__links.animation1 li {
+  transform: rotate(-90deg) rotateY(90deg);
+  transform-origin: top right;
+  animation: animation1 1s ease forwards;
+  opacity: 0;
+}
+
+.nav__links.animation1 li:nth-child(2) {
+  animation-delay: 100ms;
+  transform-origin: top left;
+  transform: rotate(-90deg) rotateY(-90deg);
+}
+.nav__links.animation1 li:nth-child(3) {
+  animation-delay: 200ms;
+}
+.nav__links.animation1 li:nth-child(4) {
+  animation-delay: 300ms;
+  transform-origin: top left;
+  transform: rotate(-90deg) rotateY(-90deg);
+}
+.nav__links.animation1 li:nth-child(5) {
+  animation-delay: 400ms;
+}
+.nav__links.animation1 li:nth-child(6) {
+  animation-delay: 500ms;
+  transform-origin: top left;
+  transform: rotate(-90deg) rotateY(-90deg);
+}
+
+@keyframes animation1 {
+  to {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+/*========== ANIMATION 2 ============*/
+.nav__links.animation2 li {
+  animation: animation2 1s ease forwards;
+  transform: rotateY(90deg) rotateX(90deg);
+  transform-origin: top right;
+  opacity: 0;
+}
+
+.nav__links.animation2 li:nth-child(2) {
+  animation-delay: 100ms;
+}
+.nav__links.animation2 li:nth-child(3) {
+  animation-delay: 200ms;
+}
+.nav__links.animation2 li:nth-child(4) {
+  animation-delay: 300ms;
+}
+.nav__links.animation2 li:nth-child(5) {
+  animation-delay: 400ms;
+}
+.nav__links.animation2 li:nth-child(6) {
+  animation-delay: 500ms;
+}
+
+@keyframes animation2 {
+  to {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+/*========== ANIMATION 3 ============*/
+.nav__links.animation3 li {
+  animation: animation3 1s ease forwards;
+  transform: rotateX(90deg);
+  transform-origin: top;
+  opacity: 0;
+}
+
+.nav__links.animation3 li:nth-child(2) {
+  animation-delay: 100ms;
+}
+.nav__links.animation3 li:nth-child(3) {
+  animation-delay: 200ms;
+}
+.nav__links.animation3 li:nth-child(4) {
+  animation-delay: 300ms;
+}
+.nav__links.animation3 li:nth-child(5) {
+  animation-delay: 400ms;
+}
+.nav__links.animation3 li:nth-child(6) {
+  animation-delay: 500ms;
+}
+
+@keyframes animation3 {
+  to {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+/*========== ANIMATION 4 ============*/
+.nav__links.animation4 li {
+  animation: animation4 1000ms ease forwards;
+  transform-origin: top;
+  opacity: 0;
+}
+
+.nav__links.animation4 li:nth-child(2) {
+  animation-delay: 100ms;
+}
+.nav__links.animation4 li:nth-child(3) {
+  animation-delay: 200ms;
+}
+.nav__links.animation4 li:nth-child(4) {
+  animation-delay: 300ms;
+}
+.nav__links.animation4 li:nth-child(5) {
+  animation-delay: 400ms;
+}
+.nav__links.animation4 li:nth-child(6) {
+  animation-delay: 500ms;
+}
+
+@keyframes animation4 {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/*========== ANIMATION 5 ============*/
+.nav__links.animation5 { 
+  perspective: none;
+}
+
+.nav__links.animation5 li {
+  animation: animation5 1000ms ease forwards;
+  transform-origin: right;
+  transform: rotateY(-90deg);
+}
+
+.nav__links.animation5 li:nth-child(2) {
+  animation-delay: 100ms;
+}
+.nav__links.animation5 li:nth-child(3) {
+  animation-delay: 200ms;
+}
+.nav__links.animation5 li:nth-child(4) {
+  animation-delay: 300ms;
+}
+.nav__links.animation5 li:nth-child(5) {
+  animation-delay: 400ms;
+}
+.nav__links.animation5 li:nth-child(6) {
+  animation-delay: 500ms;
+}
+
+@keyframes animation5 {
+  to {
+    transform: rotate(0);
+  }
+}
