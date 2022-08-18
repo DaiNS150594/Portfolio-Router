@@ -167,3 +167,13 @@
     transform: rotate(0);
   }
 }
+
+@keyframes loop {
+  from {
+    transform: translateY(-1.5rem);
+  }
+
+  to {
+    transform: translateY(1.5rem);
+  }
+}
